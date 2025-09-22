@@ -1,1 +1,78 @@
+<<<<<<< HEAD
 node_modules
+=======
+# ----------------------
+# General
+# ----------------------
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+!.mvn/wrapper/maven-wrapper.jar
+
+# ----------------------
+# Java / Maven / Spring Boot
+# ----------------------
+/target/git stash
+
+/bin/
+/build/
+/out/
+
+# IDEs
+/.idea/
+/*.iml
+/.classpath
+/.project
+/.settings/
+/.vscode/
+
+# Maven
+/logs
+/mvnw
+/mvnw.cmd
+/.mvn/
+dependency-reduced-pom.xml
+
+# Spring Boot devtools
+.spring-boot-devtools.properties
+
+# ----------------------
+# Node.js / Frontend
+# ----------------------
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/.next/
+frontend/.nuxt/
+frontend/.angular/
+frontend/.cache/
+frontend/npm-debug.log
+frontend/yarn-debug.log
+frontend/yarn-error.log
+frontend/package-lock.json
+frontend/.parcel-cache/
+
+# ----------------------
+# OS-specific
+# ----------------------
+# Windows
+ehthumbs.db
+Icon?
+desktop.ini
+
+# macOS
+*.DS_Store
+
+# Linux
+*~
+
+# ----------------------
+# Environment / Security
+# ----------------------
+*.env
+.env.*
+>>>>>>> c09cee446febc30d7f409db3c354e085cd190eba
